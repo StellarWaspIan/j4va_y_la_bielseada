@@ -14,6 +14,7 @@ public class Vista {
             System.out.println("5- Calcular Perimetro de Figuras");
             System.out.println("6- Cambiar color (Borde o Fondo) de Figura");
             System.out.println("7- Cambiar color de fondo de pizarra");
+            System.out.println("8- Mostrar Figuras en Pizarra");
             System.out.println("0- Salir");
             opcion=scanner.nextInt();
 
@@ -32,14 +33,32 @@ public class Vista {
                                 double llargo=scanner.nextDouble();
                                 System.out.println("Ingrese el color de fondo de la Linea");
                                 String lcolorfondo=scanner.nextLine();
-                                System.out.println("Ingrese el color de borde de la linea");
+                                System.out.println("Ingrese el color de borde de la Linea");
                                 String lcolorborde=scanner.nextLine();
                                 break;
                             case 2:
                                 System.out.println("- - - Creacion de Rectangulo - - -");
+                                System.out.println("Ingrese el largo del Rectangulo: ");
+                                double rlargo=scanner.nextDouble();
+                                System.out.println("Ingrese el alto del Rectangulo: ");
+                                double ralto=scanner.nextDouble();
+                                System.out.println("Ingrese el color de fondo de la Rectangulo");
+                                String rcolorfondo=scanner.nextLine();
+                                System.out.println("Ingrese el color de borde de la Rectangulo");
+                                String rcolorborde=scanner.nextLine();
                                 break;
                             case 3:
                                 System.out.println("- - - Creacion de Circunferencia - - -");
+                                System.out.println("Ingrese el largo de la Circunferencia: ");
+                                double clargo=scanner.nextDouble();
+                                System.out.println("Ingrese el alto de la Circunferencia: ");
+                                double calto=scanner.nextDouble();
+                                System.out.println("Ingrese el radio de la Circunferencia: ");
+                                double cradio=scanner.nextDouble();
+                                System.out.println("Ingrese el color de fondo de la Circunferencia");
+                                String ccolorfondo=scanner.nextLine();
+                                System.out.println("Ingrese el color de borde de la Circunferencia");
+                                String ccolorborde=scanner.nextLine();
                                 break;
                             default:
                                 System.err.println("ERROR: Seleccione una opcion correcta!!!");

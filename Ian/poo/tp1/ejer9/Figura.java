@@ -1,16 +1,16 @@
 package Ian.poo.tp1.ejer9;
 
 public abstract class Figura{
-    static double altura=0;
-    static double largo=0;
-    static String colorfondo="";
-    static String colorborde="";
+    double altura=0;
+    double largo=0;
+    String colorfondo="";
+    String colorborde="";
     
     public Figura(double altura, double largo, String colorfondo, String colorborde) {
-        Figura.altura = altura;
-        Figura.largo = largo;
-        Figura.colorfondo = colorfondo;
-        Figura.colorborde = colorborde;
+        this.altura = altura;
+        this.largo = largo;
+        this.colorfondo = colorfondo;
+        this.colorborde = colorborde;
     }
 
     final double pi=3.14;

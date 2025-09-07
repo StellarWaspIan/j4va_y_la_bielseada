@@ -1,2 +1,2 @@
-# j4va_y_la_bielseada
+# Java y la Bielseada
 Para practicar Java (Programación de Algoritmos y Programación Orientada a Objetos)

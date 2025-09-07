@@ -1,9 +1,10 @@
 package Ian.poo.tp1.ejer9;
 
 public class Circunferencia extends Figura {
-
-    public Circunferencia(double altura, double largo, String colorfondo, String colorborde) {
+    static double radio;
+    public Circunferencia(double altura, double largo, double radio, String colorfondo, String colorborde) {
         super(altura, largo, colorfondo, colorborde);
+        Circunferencia.radio=radio;
     }
 
     @Override

@@ -13,7 +13,7 @@ public abstract class Figura{
         this.colorborde = colorborde;
     }
 
-    final double pi=3.14;
+    public final double pi=3.14;
 
     public abstract String toString();
 }

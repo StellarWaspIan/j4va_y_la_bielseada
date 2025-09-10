@@ -8,7 +8,7 @@ public class Linea extends Figura {
 
     @Override
     public String toString() {
-        return "";
+        return "Linea: "+largo+", Color de Fondo: "+colorfondo+", Color de Borde: "+colorborde;
     }
     
 }

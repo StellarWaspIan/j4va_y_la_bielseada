@@ -5,12 +5,14 @@ public abstract class Figura{
     double largo=0;
     String colorfondo="";
     String colorborde="";
+    double radio;
     
-    public Figura(double altura, double largo, String colorfondo, String colorborde) {
+    public Figura(double altura, double largo, String colorfondo, String colorborde, double radio) {
         this.altura = altura;
         this.largo = largo;
         this.colorfondo = colorfondo;
         this.colorborde = colorborde;
+        this.radio=radio;
     }
 
     public final double pi=3.14;

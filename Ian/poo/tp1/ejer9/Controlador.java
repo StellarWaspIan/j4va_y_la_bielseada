@@ -27,4 +27,7 @@ public class Controlador {
     public void mostrarPizarra(){
         modelo.mostrarPizarra();
     }
+    public void calcularSuperficie(){
+        modelo.calcularSuperficie();
+    }
 }

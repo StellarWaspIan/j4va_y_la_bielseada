@@ -46,6 +46,7 @@ public class Vista {
                             double rlargo=scanner.nextDouble();
                             System.out.println("Ingrese el alto del Rectangulo: ");
                             double ralto=scanner.nextDouble();
+                            scanner.nextLine();
                             System.out.println("Ingrese el color de fondo de la Rectangulo");
                             String rcolorfondo=scanner.nextLine();
                             System.out.println("Ingrese el color de borde de la Rectangulo");
@@ -54,17 +55,14 @@ public class Vista {
                             break;
                         case 3:
                             System.out.println("- - - Creacion de Circunferencia - - -");
-                            System.out.println("Ingrese el largo de la Circunferencia: ");
-                            double clargo=scanner.nextDouble();
-                            System.out.println("Ingrese el alto de la Circunferencia: ");
-                            double calto=scanner.nextDouble();
                             System.out.println("Ingrese el radio de la Circunferencia: ");
                             double cradio=scanner.nextDouble();
+                            scanner.nextLine();
                             System.out.println("Ingrese el color de fondo de la Circunferencia");
                             String ccolorfondo=scanner.nextLine();
                             System.out.println("Ingrese el color de borde de la Circunferencia");
                             String ccolorborde=scanner.nextLine();
-                            controlador.cargaFigura(3, calto, clargo, ccolorfondo, ccolorborde, cradio);
+                            controlador.cargaFigura(3, 0, 0, ccolorfondo, ccolorborde, cradio);
                             break;
                         default:
                             System.out.println("ERROR: Seleccione una opcion correcta!!!");
@@ -78,7 +76,7 @@ public class Vista {
                     
                     break;
                 case 4:
-                    
+                    controlador.calcularSuperficie();
                     break;
                 case 5:
                     
